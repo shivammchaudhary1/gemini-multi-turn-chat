@@ -103,52 +103,6 @@ gemini-multi-turn-chat/
 └── .env             # Environment variables (create this file)
 ```
 
-## 🔧 Configuration
-
-### Temperature Settings
-
-- **0.1-0.3**: Focused, deterministic responses
-- **0.4-0.6**: Balanced responses
-- **0.7**: Default, good balance of creativity and coherence
-- **0.8-1.0**: More creative and varied responses
-
-### Model Configuration
-
-The script uses `gemini-1.5-flash` model, which provides:
-
-- Fast response times
-- Good quality outputs
-- Cost-effective API usage
-
-## 🔍 Troubleshooting
-
-### Common Issues and Solutions
-
-1. **"API key not found" Error**
-
-   ```
-   Solution: Check that your .env file exists and contains GEMINI_API_KEY=your_key
-   ```
-
-2. **"Module not found" Error**
-
-   ```bash
-   # Solution: Install dependencies
-   npm install
-   ```
-
-3. **"Permission denied" Error**
-
-   ```bash
-   # Solution: Check file permissions
-   chmod +x index.js  # On Unix/Linux/Mac
-   ```
-
-4. **Rate Limiting Issues**
-   ```
-   Solution: Wait a moment between requests or check your API quota
-   ```
-
 ## 📊 Example Conversation
 
 ```
@@ -171,36 +125,8 @@ Continue for a 3rd turn? (y/n): y
 🤖 Gemini Final Response: Current quantum computing limitations include...
 ```
 
-## 🔐 Security Notes
-
-- Keep your API key secure and never commit it to version control
-- The `.env` file should be added to `.gitignore`
-- Monitor your API usage to avoid unexpected charges
-
 ## 📝 Dependencies
 
 - **@google/genai**: Official Google Generative AI library
 - **dotenv**: Environment variable management
 - **readline**: Built-in Node.js module for interactive input
-
-## 🤝 Contributing
-
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 👨‍💻 Author
-
-**Shivam Chaudhary**
-
-## 🔗 Useful Links
-
-- [Google AI Studio](https://makersuite.google.com/)
-- [Gemini API Documentation](https://developers.google.com/generative-ai)
-- [Node.js Documentation](https://nodejs.org/docs/)
-
----
-
-**Note**: This application requires an active internet connection and a valid Google AI API key to function properly.
