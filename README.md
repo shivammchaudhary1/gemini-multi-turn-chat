@@ -125,6 +125,11 @@ Continue for a 3rd turn? (y/n): y
 🤖 Gemini Final Response: Current quantum computing limitations include...
 ```
 
+
+![gemimi-chat](https://github.com/user-attachments/assets/01071779-1cf3-430b-8651-98fd232b4d4d)
+
+
+
 ## 📝 Dependencies
 
 - **@google/genai**: Official Google Generative AI library
